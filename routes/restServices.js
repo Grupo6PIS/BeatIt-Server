@@ -8,26 +8,45 @@ router.get('/getRanking', function(req, res) {
   Round
   	.find()
   	.limit("3")// last 3 weeks
-  	.sort("_id")
+  	.sort({_id: 'desc'})
   	.exec(function(error, result){
-
+  		console.log(result);
   		for(var i=0; i< result.length; i++){
   			var rankingTemp = [];
-  			for(var j=0; j< result.ranking.length;j++){
+  			for(var j=0; j< result[i].ranking.length;j++){
   				rankingTemp.push({
-  					userId: result.ranking[j].result.ranking,
-  					score: result.ranking[j].result.score
+  					userId: result[i].ranking[j].userId,
+  					score: result[i].ranking[j].score
   				});
   			}
 	  		
+  			ordenar(rankingTemp);
+
   			retorno.push({
-  				start_date: round.start_date,
-  				end_date: round.end_date,
+  				numberWeek: result[i]._id,
+  				start_date: result[i].start_date,
+  				end_date: result[i].end_date,
   				ranking: rankingTemp
   			});
   		}
   		res.send(retorno);
   	});
+
+  	function ordenar( array){
+  		var  swap;
+  		for(var i=0; i< array.length; i++){
+
+  			for(var j=i+1; j< array.length; j++){
+
+  				if (parseInt(array[j]).score > parseInt(array[i].score)){
+  					swap = array[i];
+  					array[i] = array[j];
+  					array[j] = swap;
+  				}
+
+  			}
+  		}
+  	}
 });
 
 router.post("/addUser", function(req, res){
@@ -40,7 +59,7 @@ router.post("/addUser", function(req, res){
 	})
 	.save(function(error, user){
 		if (error){
-			res.send({message:"Error al guardar.", error: true});
+			res.send({message:"Error al registrar usuario.", error: true});
 		}
 		else{
 			res.send({message:"Operacion exitosa.", error: false});
@@ -103,7 +122,7 @@ router.post('/sendScore', function(req, res) {
 
 						round.save(function(error, round){
 							if (error){
-								res.send({message: "Error al guardar.", error: true});
+								res.send({message: "Fallo al guardar puntaje.", error: true});
 							}
 							else{
 								res.send({message: "Operacion exitosa.", error: false});
@@ -114,7 +133,7 @@ router.post('/sendScore', function(req, res) {
 						round.ranking[i].score = parseInt(req.body.score) + parseInt(round.ranking[i].score);
 						round.save(function(error, round){
 							if (error){
-								res.send({message: "Error al guardar.", error: true});
+								res.send({message: "Fallo al guardar puntaje.", error: true});
 							}
 							else{
 								res.send({message: "Operacion exitosa.", error: false});
@@ -143,7 +162,7 @@ router.post('/addChallenge', function(req, res){
 		active: req.body.active
 	}).save(function(error,newChallenge){
 		if (error){
-			res.send({message: "Error al guardar.", error: true});
+			res.send({message: "Problema al guardar desafio.", error: true});
 		}
 		else{
 			res.send({message: "Operacion exitosa.", error: false});

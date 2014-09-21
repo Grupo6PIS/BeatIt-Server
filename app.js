@@ -82,26 +82,27 @@ function getModels(db){
 //************* START SCHEDULE ************* //
 
 
-var job = schedule.scheduleJob("00 24 * * 0", function(){
+var job = schedule.scheduleJob("01 00 * * 0", function(){
     var Rounds= mongoose.model("rounds"),
         Challenges = mongoose.model("challenges"),
         TOPE = 10,
         cantSobrantes = 0;
 
     Challenges
-    .find()
+    .find({active: true})
     .exec(function(error, result){
         if (error){
             console.log(error);
         }
         else{
             var sobrantes = result.length - TOPE;
-            var now = new Date();
+            var now = new Date()
+            date = new Date(now);
 
             var newRound={
                 _id: now.getWeek(),
                 start_date: now,
-                end_date: now.setDate(now.getDate()+7) ,
+                end_date: date.setDate(date.getDate()+7) ,
                 challengeList: [],
                 ranking:[]
             };
@@ -125,9 +126,7 @@ var job = schedule.scheduleJob("00 24 * * 0", function(){
                 }
             }
 
-            new Rounds(newRound).save(function(error, newRound){
-                console.log(">> " +error);
-            });
+            new Rounds(newRound).save();
         }
     });
     
