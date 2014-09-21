@@ -4,9 +4,12 @@ var favicon = require('serve-favicon');
 var logger = require('morgan');
 var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
+var schemas = require('./model/schemas');
+var mongoose = require('mongoose');
+var schedule = require('node-schedule');
 
-var routes = require('./routes/index');
-var users = require('./routes/users');
+var index = require('./routes/index');
+var restServices = require('./routes/restServices');
 
 var app = express();
 
@@ -22,8 +25,15 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
-app.use('/', routes);
-app.use('/users', users);
+var modelos = getModels(mongoose);
+
+app.use(function(req , res, next){
+    req.models = modelos;
+    next();
+});
+
+app.use('/', restServices);
+app.use('/index', index);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
@@ -58,3 +68,75 @@ app.use(function(err, req, res, next) {
 
 
 module.exports = app;
+
+function getModels(db){
+    return {
+        "users" : db.model("users"),
+        "challenges": db.model("challenges"),
+        "rounds": db.model("rounds")
+    }
+}
+
+
+
+//************* START SCHEDULE ************* //
+
+
+var rule = new schedule.RecurrenceRule();
+
+rule.minute = new schedule.Range(0, 59, 1);
+
+var job = schedule.scheduleJob(rule, function(){
+    var Rounds= mongoose.model("rounds"),
+        Challenges = mongoose.model("challenges"),
+        TOPE = 10,
+        cantSobrantes = 0;
+
+    Challenges
+    .find()
+    .exec(function(error, result){
+        if (error){
+            console.log(error);
+        }
+        else{
+            var sobrantes = result.length - TOPE;
+            var now = new Date();
+
+            var newRound={
+                _id: now.getWeek(),
+                start_date: now,
+                end_date: now.setDate(now.getDate()+7) ,
+                challengeList: [],
+                ranking:[]
+            };
+
+            
+            for(var i=0; i< result.length; i++){
+                
+                if (cantSobrantes < sobrantes){
+                    
+                    if ((Math.floor(Math.random() * 1) == 1 )){
+                        cantSobrantes++;
+                        newRound.challengeList.push({
+                            challengeID: result[i]._id
+                        });
+                    }
+                }else{
+                    newRound.challengeList.push({
+                        _id: result[i]._id,
+                        challengeName: result[i].name
+                    });
+                }
+            }
+
+            new Rounds(newRound).save(function(error, newRound){
+                console.log(">> " +error);
+            });
+        }
+    });
+    
+
+    
+    
+});
+
