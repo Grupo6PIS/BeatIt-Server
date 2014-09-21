@@ -82,11 +82,7 @@ function getModels(db){
 //************* START SCHEDULE ************* //
 
 
-var rule = new schedule.RecurrenceRule();
-
-rule.minute = new schedule.Range(0, 59, 1);
-
-var job = schedule.scheduleJob(rule, function(){
+var job = schedule.scheduleJob("00 24 * * 0", function(){
     var Rounds= mongoose.model("rounds"),
         Challenges = mongoose.model("challenges"),
         TOPE = 10,
