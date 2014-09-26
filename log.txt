@@ -1,0 +1,2713 @@
+==> app-root/logs/mongodb.log <==
+Wed Sep 24 20:38:31.899 [initandlisten] MongoDB starting : pid=149590 port=27017 dbpath=/var/lib/openshift/54235f375973ca1d2e000797/mongodb/data/ 64-bit host=ex-std-node457.prod.rhcloud.com
+Wed Sep 24 20:38:31.899 [initandlisten] db version v2.4.9
+Wed Sep 24 20:38:31.899 [initandlisten] git version: nogitversion
+Wed Sep 24 20:38:31.899 [initandlisten] build info: Linux x86-025.build.eng.bos.redhat.com 2.6.32-431.5.1.el6.x86_64 #1 SMP Fri Jan 10 14:46:43 EST 2014 x86_64 BOOST_LIB_VERSION=1_41
+Wed Sep 24 20:38:31.899 [initandlisten] allocator: tcmalloc
+Wed Sep 24 20:38:31.899 [initandlisten] options: { auth: true, bind_ip: "127.10.112.2", command: [ "run" ], config: "/var/lib/openshift/54235f375973ca1d2e000797/mongodb//conf/mongodb.conf", dbpath: "/var/lib/openshift/54235f375973ca1d2e000797/mongodb/data/", nohttpinterface: "true", noprealloc: "true", pidfilepath: "/var/lib/openshift/54235f375973ca1d2e000797/mongodb/pid/mongodb.pid", quiet: "true", smallfiles: "true" }
+Wed Sep 24 20:38:31.945 [initandlisten] journal dir=/var/lib/openshift/54235f375973ca1d2e000797/mongodb/data/journal
+Wed Sep 24 20:38:31.945 [initandlisten] recover : no journal files present, no recovery needed
+Wed Sep 24 20:38:31.956 [initandlisten] waiting for connections on port 27017
+Wed Sep 24 20:38:32.905 [conn1] command denied: { replSetGetStatus: 1.0, forShell: 1.0 }
+
+==> app-root/logs/nodejs.log <==
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at Object.<anonymous> (/var/lib/openshift/54235f375973ca1d2e000797/app-root/runtime/repo/server.js:2:11)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Function.Module.runMain (module.js:497:10)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module 'app'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at Object.<anonymous> (/var/lib/openshift/54235f375973ca1d2e000797/app-root/runtime/repo/server.js:2:11)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Function.Module.runMain (module.js:497:10)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module 'app'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at Object.<anonymous> (/var/lib/openshift/54235f375973ca1d2e000797/app-root/runtime/repo/server.js:2:11)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Function.Module.runMain (module.js:497:10)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module 'app'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at Object.<anonymous> (/var/lib/openshift/54235f375973ca1d2e000797/app-root/runtime/repo/server.js:2:11)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Function.Module.runMain (module.js:497:10)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module 'app'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at Object.<anonymous> (/var/lib/openshift/54235f375973ca1d2e000797/app-root/runtime/repo/server.js:2:11)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Function.Module.runMain (module.js:497:10)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module 'app'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at Object.<anonymous> (/var/lib/openshift/54235f375973ca1d2e000797/app-root/runtime/repo/server.js:2:11)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Function.Module.runMain (module.js:497:10)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module 'app'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at Object.<anonymous> (/var/lib/openshift/54235f375973ca1d2e000797/app-root/runtime/repo/server.js:2:11)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Function.Module.runMain (module.js:497:10)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module 'app'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at Object.<anonymous> (/var/lib/openshift/54235f375973ca1d2e000797/app-root/runtime/repo/server.js:2:11)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Function.Module.runMain (module.js:497:10)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module 'app'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at Object.<anonymous> (/var/lib/openshift/54235f375973ca1d2e000797/app-root/runtime/repo/server.js:2:11)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Function.Module.runMain (module.js:497:10)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module 'app'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at Object.<anonymous> (/var/lib/openshift/54235f375973ca1d2e000797/app-root/runtime/repo/server.js:2:11)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Function.Module.runMain (module.js:497:10)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module 'app'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at Object.<anonymous> (/var/lib/openshift/54235f375973ca1d2e000797/app-root/runtime/repo/server.js:2:11)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Function.Module.runMain (module.js:497:10)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module 'app'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at Object.<anonymous> (/var/lib/openshift/54235f375973ca1d2e000797/app-root/runtime/repo/server.js:2:11)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Function.Module.runMain (module.js:497:10)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module 'app'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at Object.<anonymous> (/var/lib/openshift/54235f375973ca1d2e000797/app-root/runtime/repo/server.js:2:11)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Function.Module.runMain (module.js:497:10)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module 'app'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at Object.<anonymous> (/var/lib/openshift/54235f375973ca1d2e000797/app-root/runtime/repo/server.js:2:11)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Function.Module.runMain (module.js:497:10)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module 'app'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at Object.<anonymous> (/var/lib/openshift/54235f375973ca1d2e000797/app-root/runtime/repo/server.js:2:11)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Function.Module.runMain (module.js:497:10)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module 'app'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at Object.<anonymous> (/var/lib/openshift/54235f375973ca1d2e000797/app-root/runtime/repo/server.js:2:11)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Function.Module.runMain (module.js:497:10)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module 'app'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at Object.<anonymous> (/var/lib/openshift/54235f375973ca1d2e000797/app-root/runtime/repo/server.js:2:11)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Function.Module.runMain (module.js:497:10)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module 'app'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at Object.<anonymous> (/var/lib/openshift/54235f375973ca1d2e000797/app-root/runtime/repo/server.js:2:11)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Function.Module.runMain (module.js:497:10)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module 'app'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at Object.<anonymous> (/var/lib/openshift/54235f375973ca1d2e000797/app-root/runtime/repo/server.js:2:11)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Function.Module.runMain (module.js:497:10)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module 'app'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at Object.<anonymous> (/var/lib/openshift/54235f375973ca1d2e000797/app-root/runtime/repo/server.js:2:11)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Function.Module.runMain (module.js:497:10)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module 'app'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at Object.<anonymous> (/var/lib/openshift/54235f375973ca1d2e000797/app-root/runtime/repo/server.js:2:11)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Function.Module.runMain (module.js:497:10)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module 'app'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at Object.<anonymous> (/var/lib/openshift/54235f375973ca1d2e000797/app-root/runtime/repo/server.js:2:11)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Function.Module.runMain (module.js:497:10)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module 'app'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at Object.<anonymous> (/var/lib/openshift/54235f375973ca1d2e000797/app-root/runtime/repo/server.js:2:11)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Function.Module.runMain (module.js:497:10)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module 'app'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at Object.<anonymous> (/var/lib/openshift/54235f375973ca1d2e000797/app-root/runtime/repo/server.js:2:11)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Function.Module.runMain (module.js:497:10)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module 'app'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at Object.<anonymous> (/var/lib/openshift/54235f375973ca1d2e000797/app-root/runtime/repo/server.js:2:11)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Function.Module.runMain (module.js:497:10)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module 'app'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at Object.<anonymous> (/var/lib/openshift/54235f375973ca1d2e000797/app-root/runtime/repo/server.js:2:11)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Function.Module.runMain (module.js:497:10)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module 'app'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at Object.<anonymous> (/var/lib/openshift/54235f375973ca1d2e000797/app-root/runtime/repo/server.js:2:11)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Function.Module.runMain (module.js:497:10)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module 'app'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at Object.<anonymous> (/var/lib/openshift/54235f375973ca1d2e000797/app-root/runtime/repo/server.js:2:11)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Function.Module.runMain (module.js:497:10)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module 'app'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at Object.<anonymous> (/var/lib/openshift/54235f375973ca1d2e000797/app-root/runtime/repo/server.js:2:11)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Function.Module.runMain (module.js:497:10)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module 'app'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at Object.<anonymous> (/var/lib/openshift/54235f375973ca1d2e000797/app-root/runtime/repo/server.js:2:11)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Function.Module.runMain (module.js:497:10)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module 'app'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at Object.<anonymous> (/var/lib/openshift/54235f375973ca1d2e000797/app-root/runtime/repo/server.js:2:11)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Function.Module.runMain (module.js:497:10)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module 'app'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at Object.<anonymous> (/var/lib/openshift/54235f375973ca1d2e000797/app-root/runtime/repo/server.js:2:11)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Function.Module.runMain (module.js:497:10)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module 'app'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at Object.<anonymous> (/var/lib/openshift/54235f375973ca1d2e000797/app-root/runtime/repo/server.js:2:11)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Function.Module.runMain (module.js:497:10)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module 'app'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at Object.<anonymous> (/var/lib/openshift/54235f375973ca1d2e000797/app-root/runtime/repo/server.js:2:11)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Function.Module.runMain (module.js:497:10)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module 'app'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at Object.<anonymous> (/var/lib/openshift/54235f375973ca1d2e000797/app-root/runtime/repo/server.js:2:11)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Function.Module.runMain (module.js:497:10)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module 'app'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at Object.<anonymous> (/var/lib/openshift/54235f375973ca1d2e000797/app-root/runtime/repo/server.js:2:11)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Function.Module.runMain (module.js:497:10)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module 'app'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at Object.<anonymous> (/var/lib/openshift/54235f375973ca1d2e000797/app-root/runtime/repo/server.js:2:11)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Function.Module.runMain (module.js:497:10)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module 'app'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at Object.<anonymous> (/var/lib/openshift/54235f375973ca1d2e000797/app-root/runtime/repo/server.js:2:11)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Function.Module.runMain (module.js:497:10)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module 'app'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at Object.<anonymous> (/var/lib/openshift/54235f375973ca1d2e000797/app-root/runtime/repo/server.js:2:11)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Function.Module.runMain (module.js:497:10)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module 'app'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at Object.<anonymous> (/var/lib/openshift/54235f375973ca1d2e000797/app-root/runtime/repo/server.js:2:11)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Function.Module.runMain (module.js:497:10)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module 'app'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at Object.<anonymous> (/var/lib/openshift/54235f375973ca1d2e000797/app-root/runtime/repo/server.js:2:11)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Function.Module.runMain (module.js:497:10)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module 'app'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at Object.<anonymous> (/var/lib/openshift/54235f375973ca1d2e000797/app-root/runtime/repo/server.js:2:11)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Function.Module.runMain (module.js:497:10)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module 'app'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at Object.<anonymous> (/var/lib/openshift/54235f375973ca1d2e000797/app-root/runtime/repo/server.js:2:11)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Function.Module.runMain (module.js:497:10)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module 'app'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at Object.<anonymous> (/var/lib/openshift/54235f375973ca1d2e000797/app-root/runtime/repo/server.js:2:11)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Function.Module.runMain (module.js:497:10)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module 'app'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at Object.<anonymous> (/var/lib/openshift/54235f375973ca1d2e000797/app-root/runtime/repo/server.js:2:11)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Function.Module.runMain (module.js:497:10)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module 'app'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at Object.<anonymous> (/var/lib/openshift/54235f375973ca1d2e000797/app-root/runtime/repo/server.js:2:11)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Function.Module.runMain (module.js:497:10)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module 'app'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at Object.<anonymous> (/var/lib/openshift/54235f375973ca1d2e000797/app-root/runtime/repo/server.js:2:11)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Function.Module.runMain (module.js:497:10)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module 'app'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at Object.<anonymous> (/var/lib/openshift/54235f375973ca1d2e000797/app-root/runtime/repo/server.js:2:11)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Function.Module.runMain (module.js:497:10)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module 'app'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at Object.<anonymous> (/var/lib/openshift/54235f375973ca1d2e000797/app-root/runtime/repo/server.js:2:11)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Function.Module.runMain (module.js:497:10)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module 'app'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at Object.<anonymous> (/var/lib/openshift/54235f375973ca1d2e000797/app-root/runtime/repo/server.js:2:11)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Function.Module.runMain (module.js:497:10)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module 'app'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at Object.<anonymous> (/var/lib/openshift/54235f375973ca1d2e000797/app-root/runtime/repo/server.js:2:11)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Function.Module.runMain (module.js:497:10)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module 'app'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at Object.<anonymous> (/var/lib/openshift/54235f375973ca1d2e000797/app-root/runtime/repo/server.js:2:11)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Function.Module.runMain (module.js:497:10)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module 'app'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at Object.<anonymous> (/var/lib/openshift/54235f375973ca1d2e000797/app-root/runtime/repo/server.js:2:11)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Function.Module.runMain (module.js:497:10)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module 'app'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at Object.<anonymous> (/var/lib/openshift/54235f375973ca1d2e000797/app-root/runtime/repo/server.js:2:11)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Function.Module.runMain (module.js:497:10)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module 'app'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at Object.<anonymous> (/var/lib/openshift/54235f375973ca1d2e000797/app-root/runtime/repo/server.js:2:11)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Function.Module.runMain (module.js:497:10)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module 'app'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at Object.<anonymous> (/var/lib/openshift/54235f375973ca1d2e000797/app-root/runtime/repo/server.js:2:11)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Function.Module.runMain (module.js:497:10)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module 'app'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at Object.<anonymous> (/var/lib/openshift/54235f375973ca1d2e000797/app-root/runtime/repo/server.js:2:11)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Function.Module.runMain (module.js:497:10)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module 'app'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at Object.<anonymous> (/var/lib/openshift/54235f375973ca1d2e000797/app-root/runtime/repo/server.js:2:11)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Function.Module.runMain (module.js:497:10)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module 'app'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at Object.<anonymous> (/var/lib/openshift/54235f375973ca1d2e000797/app-root/runtime/repo/server.js:2:11)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Function.Module.runMain (module.js:497:10)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module 'app'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at Object.<anonymous> (/var/lib/openshift/54235f375973ca1d2e000797/app-root/runtime/repo/server.js:2:11)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Function.Module.runMain (module.js:497:10)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module 'app'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at Object.<anonymous> (/var/lib/openshift/54235f375973ca1d2e000797/app-root/runtime/repo/server.js:2:11)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Function.Module.runMain (module.js:497:10)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module 'app'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at Object.<anonymous> (/var/lib/openshift/54235f375973ca1d2e000797/app-root/runtime/repo/server.js:2:11)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Function.Module.runMain (module.js:497:10)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module 'app'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at Object.<anonymous> (/var/lib/openshift/54235f375973ca1d2e000797/app-root/runtime/repo/server.js:2:11)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Function.Module.runMain (module.js:497:10)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module 'app'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at Object.<anonymous> (/var/lib/openshift/54235f375973ca1d2e000797/app-root/runtime/repo/server.js:2:11)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Function.Module.runMain (module.js:497:10)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module 'app'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at Object.<anonymous> (/var/lib/openshift/54235f375973ca1d2e000797/app-root/runtime/repo/server.js:2:11)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Function.Module.runMain (module.js:497:10)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module 'app'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at Object.<anonymous> (/var/lib/openshift/54235f375973ca1d2e000797/app-root/runtime/repo/server.js:2:11)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Function.Module.runMain (module.js:497:10)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module 'app'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at Object.<anonymous> (/var/lib/openshift/54235f375973ca1d2e000797/app-root/runtime/repo/server.js:2:11)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Function.Module.runMain (module.js:497:10)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module 'app'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at Object.<anonymous> (/var/lib/openshift/54235f375973ca1d2e000797/app-root/runtime/repo/server.js:2:11)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Function.Module.runMain (module.js:497:10)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module 'app'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at Object.<anonymous> (/var/lib/openshift/54235f375973ca1d2e000797/app-root/runtime/repo/server.js:2:11)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Function.Module.runMain (module.js:497:10)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module 'app'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at Object.<anonymous> (/var/lib/openshift/54235f375973ca1d2e000797/app-root/runtime/repo/server.js:2:11)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Function.Module.runMain (module.js:497:10)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module 'app'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at Object.<anonymous> (/var/lib/openshift/54235f375973ca1d2e000797/app-root/runtime/repo/server.js:2:11)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Function.Module.runMain (module.js:497:10)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module 'app'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at Object.<anonymous> (/var/lib/openshift/54235f375973ca1d2e000797/app-root/runtime/repo/server.js:2:11)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Function.Module.runMain (module.js:497:10)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module 'app'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at Object.<anonymous> (/var/lib/openshift/54235f375973ca1d2e000797/app-root/runtime/repo/server.js:2:11)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Function.Module.runMain (module.js:497:10)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module 'app'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at Object.<anonymous> (/var/lib/openshift/54235f375973ca1d2e000797/app-root/runtime/repo/server.js:2:11)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Function.Module.runMain (module.js:497:10)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module 'app'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at Object.<anonymous> (/var/lib/openshift/54235f375973ca1d2e000797/app-root/runtime/repo/server.js:2:11)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Function.Module.runMain (module.js:497:10)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module 'app'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at Object.<anonymous> (/var/lib/openshift/54235f375973ca1d2e000797/app-root/runtime/repo/server.js:2:11)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Function.Module.runMain (module.js:497:10)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module 'app'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at Object.<anonymous> (/var/lib/openshift/54235f375973ca1d2e000797/app-root/runtime/repo/server.js:2:11)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Function.Module.runMain (module.js:497:10)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module 'app'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at Object.<anonymous> (/var/lib/openshift/54235f375973ca1d2e000797/app-root/runtime/repo/server.js:2:11)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Function.Module.runMain (module.js:497:10)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module 'app'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at Object.<anonymous> (/var/lib/openshift/54235f375973ca1d2e000797/app-root/runtime/repo/server.js:2:11)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Function.Module.runMain (module.js:497:10)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module 'app'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at Object.<anonymous> (/var/lib/openshift/54235f375973ca1d2e000797/app-root/runtime/repo/server.js:2:11)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Function.Module.runMain (module.js:497:10)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module 'app'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at Object.<anonymous> (/var/lib/openshift/54235f375973ca1d2e000797/app-root/runtime/repo/server.js:2:11)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Function.Module.runMain (module.js:497:10)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module 'app'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at Object.<anonymous> (/var/lib/openshift/54235f375973ca1d2e000797/app-root/runtime/repo/server.js:2:11)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Function.Module.runMain (module.js:497:10)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module 'app'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at Object.<anonymous> (/var/lib/openshift/54235f375973ca1d2e000797/app-root/runtime/repo/server.js:2:11)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Function.Module.runMain (module.js:497:10)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module 'app'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at Object.<anonymous> (/var/lib/openshift/54235f375973ca1d2e000797/app-root/runtime/repo/server.js:2:11)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Function.Module.runMain (module.js:497:10)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module 'app'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at Object.<anonymous> (/var/lib/openshift/54235f375973ca1d2e000797/app-root/runtime/repo/server.js:2:11)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Function.Module.runMain (module.js:497:10)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module 'app'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at Object.<anonymous> (/var/lib/openshift/54235f375973ca1d2e000797/app-root/runtime/repo/server.js:2:11)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Function.Module.runMain (module.js:497:10)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module 'app'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at Object.<anonymous> (/var/lib/openshift/54235f375973ca1d2e000797/app-root/runtime/repo/server.js:2:11)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Function.Module.runMain (module.js:497:10)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module 'app'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at Object.<anonymous> (/var/lib/openshift/54235f375973ca1d2e000797/app-root/runtime/repo/server.js:2:11)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Function.Module.runMain (module.js:497:10)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module 'app'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at Object.<anonymous> (/var/lib/openshift/54235f375973ca1d2e000797/app-root/runtime/repo/server.js:2:11)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Function.Module.runMain (module.js:497:10)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module 'app'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at Object.<anonymous> (/var/lib/openshift/54235f375973ca1d2e000797/app-root/runtime/repo/server.js:2:11)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Function.Module.runMain (module.js:497:10)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module 'app'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at Object.<anonymous> (/var/lib/openshift/54235f375973ca1d2e000797/app-root/runtime/repo/server.js:2:11)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Function.Module.runMain (module.js:497:10)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module 'app'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at Object.<anonymous> (/var/lib/openshift/54235f375973ca1d2e000797/app-root/runtime/repo/server.js:2:11)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Function.Module.runMain (module.js:497:10)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module 'app'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at Object.<anonymous> (/var/lib/openshift/54235f375973ca1d2e000797/app-root/runtime/repo/server.js:2:11)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Function.Module.runMain (module.js:497:10)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module 'app'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at Object.<anonymous> (/var/lib/openshift/54235f375973ca1d2e000797/app-root/runtime/repo/server.js:2:11)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Function.Module.runMain (module.js:497:10)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module 'app'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at Object.<anonymous> (/var/lib/openshift/54235f375973ca1d2e000797/app-root/runtime/repo/server.js:2:11)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Function.Module.runMain (module.js:497:10)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module 'app'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at Object.<anonymous> (/var/lib/openshift/54235f375973ca1d2e000797/app-root/runtime/repo/server.js:2:11)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Function.Module.runMain (module.js:497:10)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module 'app'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at Object.<anonymous> (/var/lib/openshift/54235f375973ca1d2e000797/app-root/runtime/repo/server.js:2:11)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Function.Module.runMain (module.js:497:10)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module 'app'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at Object.<anonymous> (/var/lib/openshift/54235f375973ca1d2e000797/app-root/runtime/repo/server.js:2:11)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Function.Module.runMain (module.js:497:10)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module 'app'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at Object.<anonymous> (/var/lib/openshift/54235f375973ca1d2e000797/app-root/runtime/repo/server.js:2:11)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Function.Module.runMain (module.js:497:10)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module 'app'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at Object.<anonymous> (/var/lib/openshift/54235f375973ca1d2e000797/app-root/runtime/repo/server.js:2:11)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Function.Module.runMain (module.js:497:10)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module 'app'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at Object.<anonymous> (/var/lib/openshift/54235f375973ca1d2e000797/app-root/runtime/repo/server.js:2:11)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Function.Module.runMain (module.js:497:10)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module 'app'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at Object.<anonymous> (/var/lib/openshift/54235f375973ca1d2e000797/app-root/runtime/repo/server.js:2:11)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Function.Module.runMain (module.js:497:10)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module 'app'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at Object.<anonymous> (/var/lib/openshift/54235f375973ca1d2e000797/app-root/runtime/repo/server.js:2:11)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Function.Module.runMain (module.js:497:10)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module 'app'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at Object.<anonymous> (/var/lib/openshift/54235f375973ca1d2e000797/app-root/runtime/repo/server.js:2:11)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Function.Module.runMain (module.js:497:10)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module 'app'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at Object.<anonymous> (/var/lib/openshift/54235f375973ca1d2e000797/app-root/runtime/repo/server.js:2:11)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Function.Module.runMain (module.js:497:10)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module 'app'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at Object.<anonymous> (/var/lib/openshift/54235f375973ca1d2e000797/app-root/runtime/repo/server.js:2:11)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Function.Module.runMain (module.js:497:10)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module 'app'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at Object.<anonymous> (/var/lib/openshift/54235f375973ca1d2e000797/app-root/runtime/repo/server.js:2:11)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Function.Module.runMain (module.js:497:10)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module 'app'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at Object.<anonymous> (/var/lib/openshift/54235f375973ca1d2e000797/app-root/runtime/repo/server.js:2:11)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Function.Module.runMain (module.js:497:10)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module 'app'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at Object.<anonymous> (/var/lib/openshift/54235f375973ca1d2e000797/app-root/runtime/repo/server.js:2:11)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Function.Module.runMain (module.js:497:10)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module 'app'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at Object.<anonymous> (/var/lib/openshift/54235f375973ca1d2e000797/app-root/runtime/repo/server.js:2:11)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Function.Module.runMain (module.js:497:10)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module 'app'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at Object.<anonymous> (/var/lib/openshift/54235f375973ca1d2e000797/app-root/runtime/repo/server.js:2:11)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Function.Module.runMain (module.js:497:10)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module 'app'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at Object.<anonymous> (/var/lib/openshift/54235f375973ca1d2e000797/app-root/runtime/repo/server.js:2:11)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Function.Module.runMain (module.js:497:10)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module 'app'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at Object.<anonymous> (/var/lib/openshift/54235f375973ca1d2e000797/app-root/runtime/repo/server.js:2:11)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Function.Module.runMain (module.js:497:10)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module 'app'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at Object.<anonymous> (/var/lib/openshift/54235f375973ca1d2e000797/app-root/runtime/repo/server.js:2:11)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Function.Module.runMain (module.js:497:10)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module 'app'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at Object.<anonymous> (/var/lib/openshift/54235f375973ca1d2e000797/app-root/runtime/repo/server.js:2:11)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Function.Module.runMain (module.js:497:10)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module 'app'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at Object.<anonymous> (/var/lib/openshift/54235f375973ca1d2e000797/app-root/runtime/repo/server.js:2:11)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Function.Module.runMain (module.js:497:10)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module 'app'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at Object.<anonymous> (/var/lib/openshift/54235f375973ca1d2e000797/app-root/runtime/repo/server.js:2:11)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Function.Module.runMain (module.js:497:10)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module 'app'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at Object.<anonymous> (/var/lib/openshift/54235f375973ca1d2e000797/app-root/runtime/repo/server.js:2:11)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Function.Module.runMain (module.js:497:10)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module 'app'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at Object.<anonymous> (/var/lib/openshift/54235f375973ca1d2e000797/app-root/runtime/repo/server.js:2:11)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Function.Module.runMain (module.js:497:10)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module 'app'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at Object.<anonymous> (/var/lib/openshift/54235f375973ca1d2e000797/app-root/runtime/repo/server.js:2:11)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Function.Module.runMain (module.js:497:10)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module 'app'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at Object.<anonymous> (/var/lib/openshift/54235f375973ca1d2e000797/app-root/runtime/repo/server.js:2:11)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Function.Module.runMain (module.js:497:10)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module 'app'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at Object.<anonymous> (/var/lib/openshift/54235f375973ca1d2e000797/app-root/runtime/repo/server.js:2:11)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Function.Module.runMain (module.js:497:10)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module 'app'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at Object.<anonymous> (/var/lib/openshift/54235f375973ca1d2e000797/app-root/runtime/repo/server.js:2:11)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Function.Module.runMain (module.js:497:10)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module 'app'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at Object.<anonymous> (/var/lib/openshift/54235f375973ca1d2e000797/app-root/runtime/repo/server.js:2:11)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Function.Module.runMain (module.js:497:10)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module 'app'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at Object.<anonymous> (/var/lib/openshift/54235f375973ca1d2e000797/app-root/runtime/repo/server.js:2:11)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Function.Module.runMain (module.js:497:10)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module 'app'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at Object.<anonymous> (/var/lib/openshift/54235f375973ca1d2e000797/app-root/runtime/repo/server.js:2:11)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Function.Module.runMain (module.js:497:10)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module 'app'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at Object.<anonymous> (/var/lib/openshift/54235f375973ca1d2e000797/app-root/runtime/repo/server.js:2:11)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Function.Module.runMain (module.js:497:10)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module 'app'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at Object.<anonymous> (/var/lib/openshift/54235f375973ca1d2e000797/app-root/runtime/repo/server.js:2:11)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Function.Module.runMain (module.js:497:10)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module 'app'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at Object.<anonymous> (/var/lib/openshift/54235f375973ca1d2e000797/app-root/runtime/repo/server.js:2:11)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Function.Module.runMain (module.js:497:10)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module 'app'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at Object.<anonymous> (/var/lib/openshift/54235f375973ca1d2e000797/app-root/runtime/repo/server.js:2:11)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Function.Module.runMain (module.js:497:10)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module 'app'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at Object.<anonymous> (/var/lib/openshift/54235f375973ca1d2e000797/app-root/runtime/repo/server.js:2:11)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Function.Module.runMain (module.js:497:10)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module 'app'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at Object.<anonymous> (/var/lib/openshift/54235f375973ca1d2e000797/app-root/runtime/repo/server.js:2:11)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Function.Module.runMain (module.js:497:10)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module 'app'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at Object.<anonymous> (/var/lib/openshift/54235f375973ca1d2e000797/app-root/runtime/repo/server.js:2:11)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Function.Module.runMain (module.js:497:10)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module 'app'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at Object.<anonymous> (/var/lib/openshift/54235f375973ca1d2e000797/app-root/runtime/repo/server.js:2:11)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Function.Module.runMain (module.js:497:10)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module 'app'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at Object.<anonymous> (/var/lib/openshift/54235f375973ca1d2e000797/app-root/runtime/repo/server.js:2:11)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Function.Module.runMain (module.js:497:10)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module 'app'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at Object.<anonymous> (/var/lib/openshift/54235f375973ca1d2e000797/app-root/runtime/repo/server.js:2:11)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Function.Module.runMain (module.js:497:10)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module 'app'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at Object.<anonymous> (/var/lib/openshift/54235f375973ca1d2e000797/app-root/runtime/repo/server.js:2:11)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Function.Module.runMain (module.js:497:10)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module 'app'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at Object.<anonymous> (/var/lib/openshift/54235f375973ca1d2e000797/app-root/runtime/repo/server.js:2:11)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Function.Module.runMain (module.js:497:10)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module 'app'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at Object.<anonymous> (/var/lib/openshift/54235f375973ca1d2e000797/app-root/runtime/repo/server.js:2:11)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Function.Module.runMain (module.js:497:10)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module 'app'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at Object.<anonymous> (/var/lib/openshift/54235f375973ca1d2e000797/app-root/runtime/repo/server.js:2:11)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Function.Module.runMain (module.js:497:10)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module 'app'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at Object.<anonymous> (/var/lib/openshift/54235f375973ca1d2e000797/app-root/runtime/repo/server.js:2:11)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Function.Module.runMain (module.js:497:10)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module 'app'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at Object.<anonymous> (/var/lib/openshift/54235f375973ca1d2e000797/app-root/runtime/repo/server.js:2:11)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Function.Module.runMain (module.js:497:10)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module 'app'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at Object.<anonymous> (/var/lib/openshift/54235f375973ca1d2e000797/app-root/runtime/repo/server.js:2:11)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Function.Module.runMain (module.js:497:10)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module 'app'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at Object.<anonymous> (/var/lib/openshift/54235f375973ca1d2e000797/app-root/runtime/repo/server.js:2:11)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Function.Module.runMain (module.js:497:10)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module 'app'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at Object.<anonymous> (/var/lib/openshift/54235f375973ca1d2e000797/app-root/runtime/repo/server.js:2:11)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Function.Module.runMain (module.js:497:10)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module 'app'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at Object.<anonymous> (/var/lib/openshift/54235f375973ca1d2e000797/app-root/runtime/repo/server.js:2:11)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Function.Module.runMain (module.js:497:10)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module 'app'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at Object.<anonymous> (/var/lib/openshift/54235f375973ca1d2e000797/app-root/runtime/repo/server.js:2:11)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Function.Module.runMain (module.js:497:10)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module 'app'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at Object.<anonymous> (/var/lib/openshift/54235f375973ca1d2e000797/app-root/runtime/repo/server.js:2:11)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Function.Module.runMain (module.js:497:10)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module 'app'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at Object.<anonymous> (/var/lib/openshift/54235f375973ca1d2e000797/app-root/runtime/repo/server.js:2:11)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Function.Module.runMain (module.js:497:10)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module 'app'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at Object.<anonymous> (/var/lib/openshift/54235f375973ca1d2e000797/app-root/runtime/repo/server.js:2:11)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Function.Module.runMain (module.js:497:10)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module 'app'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at Object.<anonymous> (/var/lib/openshift/54235f375973ca1d2e000797/app-root/runtime/repo/server.js:2:11)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Function.Module.runMain (module.js:497:10)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module 'app'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at Object.<anonymous> (/var/lib/openshift/54235f375973ca1d2e000797/app-root/runtime/repo/server.js:2:11)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Function.Module.runMain (module.js:497:10)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module 'app'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at Object.<anonymous> (/var/lib/openshift/54235f375973ca1d2e000797/app-root/runtime/repo/server.js:2:11)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Function.Module.runMain (module.js:497:10)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module 'app'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at Object.<anonymous> (/var/lib/openshift/54235f375973ca1d2e000797/app-root/runtime/repo/server.js:2:11)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Function.Module.runMain (module.js:497:10)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module 'app'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at Object.<anonymous> (/var/lib/openshift/54235f375973ca1d2e000797/app-root/runtime/repo/server.js:2:11)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Function.Module.runMain (module.js:497:10)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module 'app'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at Object.<anonymous> (/var/lib/openshift/54235f375973ca1d2e000797/app-root/runtime/repo/server.js:2:11)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Function.Module.runMain (module.js:497:10)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module 'app'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at Object.<anonymous> (/var/lib/openshift/54235f375973ca1d2e000797/app-root/runtime/repo/server.js:2:11)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Function.Module.runMain (module.js:497:10)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module 'app'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at Object.<anonymous> (/var/lib/openshift/54235f375973ca1d2e000797/app-root/runtime/repo/server.js:2:11)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Function.Module.runMain (module.js:497:10)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module 'app'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at Object.<anonymous> (/var/lib/openshift/54235f375973ca1d2e000797/app-root/runtime/repo/server.js:2:11)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Function.Module.runMain (module.js:497:10)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module 'app'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at Object.<anonymous> (/var/lib/openshift/54235f375973ca1d2e000797/app-root/runtime/repo/server.js:2:11)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Function.Module.runMain (module.js:497:10)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module 'app'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at Object.<anonymous> (/var/lib/openshift/54235f375973ca1d2e000797/app-root/runtime/repo/server.js:2:11)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Function.Module.runMain (module.js:497:10)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module 'app'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at Object.<anonymous> (/var/lib/openshift/54235f375973ca1d2e000797/app-root/runtime/repo/server.js:2:11)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Function.Module.runMain (module.js:497:10)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module 'app'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at Object.<anonymous> (/var/lib/openshift/54235f375973ca1d2e000797/app-root/runtime/repo/server.js:2:11)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Function.Module.runMain (module.js:497:10)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module 'app'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at Object.<anonymous> (/var/lib/openshift/54235f375973ca1d2e000797/app-root/runtime/repo/server.js:2:11)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Function.Module.runMain (module.js:497:10)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module 'app'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at Object.<anonymous> (/var/lib/openshift/54235f375973ca1d2e000797/app-root/runtime/repo/server.js:2:11)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Function.Module.runMain (module.js:497:10)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module 'app'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at Object.<anonymous> (/var/lib/openshift/54235f375973ca1d2e000797/app-root/runtime/repo/server.js:2:11)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Function.Module.runMain (module.js:497:10)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module 'app'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at Object.<anonymous> (/var/lib/openshift/54235f375973ca1d2e000797/app-root/runtime/repo/server.js:2:11)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Function.Module.runMain (module.js:497:10)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module 'app'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at Object.<anonymous> (/var/lib/openshift/54235f375973ca1d2e000797/app-root/runtime/repo/server.js:2:11)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Function.Module.runMain (module.js:497:10)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+module.js:340
+    throw err;
+          ^
+Error: Cannot find module 'app'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at Object.<anonymous> (/var/lib/openshift/54235f375973ca1d2e000797/app-root/runtime/repo/server.js:2:11)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Function.Module.runMain (module.js:497:10)
+DEBUG: Program node server.js exited with code 8
+DEBUG: Starting child process with 'node server.js'
+Interrupted
+¨Desea terminar el trabajo por lotes (S/N)? 
