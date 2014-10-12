@@ -2,8 +2,7 @@ var mongoose = require('mongoose');
 var Schema = mongoose.Schema;
 
 var user= new Schema({
-	facebookID: String,
-	twitterID: String,
+	_id: {type: String,  required: true , unique: true},
 	name: String,
 	imageURL: String
 });
@@ -15,25 +14,32 @@ var challenge = new Schema({
 	language: String,
 	name: {type: String,  required: true },
 	description: String,
-	active: {type: Boolean,  required: true }
+	active: {type: Boolean,  required: true },
+	colorHex: String,
+	maxAttemps: {type: String, default: 3}
 });
 
 var round= new Schema({
 	_id: {type: Number,  required: true, unique: true },
-	start_date: {type: Date,  required: true },
-	end_date: {type: Date,  required: true },
+	start_date: {type: Number,  required: true },
+	end_date: {type: Number,  required: true },
 	challengeList: [
-		{
-			_id:  {type: Number,  required: true , unique: true , index: true},
-			challengeName: {type: String, require: true}
-		}
+	{
+		id: {type: Number},
+		challengeName: {type: String, require: true},
+		challengeLevel: {type: Number, default: 1},
+		colorHex: String,
+		maxAttemps: Number,
+		active: Boolean
+	}
 	],
 	ranking: [
-		{
-			id: String,
-			score: {type: Number,  default: 0 }, 
-			userName: String
-		}
+	{
+		id: String,
+		score: {type: Number,  default: 0 }, 
+		userName: String, 
+		imageURL: String
+	}
 	]
 });
 
@@ -42,4 +48,4 @@ mongoose.model('challenges', challenge);
 mongoose.model('rounds', round);
 
 
-mongoose.connect("mongodb://admin:tzZba9LWXRBX@"+process.env.OPENSHIFT_MONGODB_DB_HOST+":"+process.env.OPENSHIFT_MONGODB_DB_PORT+"/beatit"); 
+mongoose.connect("mongodb://admin:pM4W9SukXggR@"+process.env.OPENSHIFT_MONGODB_DB_HOST+":"+process.env.OPENSHIFT_MONGODB_DB_PORT+"/beatit"); 

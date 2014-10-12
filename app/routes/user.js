@@ -3,21 +3,33 @@ var debug = require('debug')('Server');
 var router = express.Router();
 
 
-router.post("/addOrUpdateUser", function(req, res){
+router.post("/login", function(req, res){
 	var User = req.models["users"];
 
 	User
-	.findOne({_id: req.body.userID})
+	.findOne({_id: req.body.userID })
+	.exec(function(error, user){
+		
+		console.log(req.body);
+
+		if (user){
+			res.send({error: false, user: user.toJSON()});
+		}
+		else{
+			res.send({error: true, message: "No existe usuario."});
+		}
+	});
+
+});
+
+router.post("/updateUser", function(req, res){
+	var User = req.models["users"];
+
+	User
+	.findOne({_id: req.body.userID })
 	.exec(function(error, user ){
 
 		if (user){ // existe usuario
-			if (req.body.facebookID){
-				user.facebookID = req.body.facebookID;
-			}
-
-			if (req.body.twitterID){
-				user.twitterID = req.body.twitterID;
-			}
 
 			if (req.body.name){
 				user.name = req.body.name;
@@ -31,21 +43,22 @@ router.post("/addOrUpdateUser", function(req, res){
 			res.send({error: false, user: user.toJSON() });
 		}
 		else{
+
 			var newUser = new User({
-				facebookID: req.body.facebookID,
-				twitterID: req.body.twitterID,
-				name: req.body.name,
-				imageURL: req.body.imageURL
+				_id: req.body.userID,
+				imageURL: req.body.imageURL,
+				name: req.body.name
 			});
-			newUser
-			.save(function(error, user){
+
+			newUser.save(function(error, userSaved){
 				if (error){
 					res.send({error: true, message: error.message});
 				}
-				else if(user){
-					res.send({error: false, user: user.toJSON() });
+				else if (userSaved){
+					res.send({error: false, user: userSaved.toJSON()});
 				}
 			});
+
 		}
 
 	});
